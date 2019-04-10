@@ -108,6 +108,7 @@ li:before {
 
 .red {
   background-color: #EE4266;
+  width: 100%;
   display: inline-block;
   color: white;
 }
@@ -216,6 +217,21 @@ li:before {
 
   .person {
     width: 48%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .top::after {
+    background-size: 100%;
+  }
+
+  .block {
+    margin: 80px 20%;
+  }
+  .block .info {
+    width: 70%;
+  }
+  .block .title {
+    width: 25%;
   }
 }
 
