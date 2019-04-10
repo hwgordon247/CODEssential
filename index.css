@@ -29,6 +29,12 @@ li:before {
   margin: 0 25% 0 15%;
 }
 
+.bottom {
+  background-color: #3F4045;
+  display: inline-block;
+  width: 100%;
+}
+
 .top::after {
   content: "";
   background-image: url("img/land.jpg");
@@ -140,6 +146,12 @@ li:before {
   border-radius: 100%;
 }
 
+.email {
+  font-size: 16px;
+  color: white;
+  margin: 40px 0;
+}
+
 @media only screen and (min-width: 768px) {
   .block {
     display: flex;
@@ -193,7 +205,7 @@ li:before {
   .email {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .email img {
     width: 20px;

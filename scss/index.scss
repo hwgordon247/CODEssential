@@ -12,6 +12,8 @@ $yellow: #FCD85F;
 $blue-dark: #190B28;
 $white: white;
 $teal: #20BEB7;
+$grey: #3F4045;
+$dark-green: #00272B;
 
 
 body {
@@ -47,6 +49,12 @@ li:before {
     .container {
         margin: 0 25% 0 15%;
     }
+}
+
+.bottom {
+    background-color: $grey;
+    display: inline-block;
+    width: 100%;
 }
 
 .top::after {
@@ -164,6 +172,12 @@ li:before {
     }
 }
 
+.email {
+    font-size: 16px;
+    color: $white;
+    margin: 40px 0;
+}
+
 @media only screen and (min-width : 768px) {
     .block {
         display: flex;
@@ -220,7 +234,7 @@ li:before {
     .email {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
 
         img {
             width: 20px;
