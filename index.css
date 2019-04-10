@@ -31,8 +31,9 @@ li:before {
 
 .bottom {
   background-color: #3F4045;
-  display: inline-block;
   width: 100%;
+  display: inline-block;
+  padding: 40px 0;
 }
 
 .top::after {
@@ -150,8 +151,15 @@ li:before {
 .email {
   font-size: 16px;
   color: white;
-  margin: 40px 0;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email img {
+  width: 20px;
+  margin-top: 1px;
+  margin-right: 20px;
 }
 
 @media only screen and (min-width: 768px) {
