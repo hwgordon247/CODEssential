@@ -7,9 +7,12 @@ $green: #1B998B;
 // $blue: #4392F1;
 $blue: #0097FF;
 $red: #EE4266;
-$yellow: #FFD23F;
+// $yellow: #FFD23F;
+$yellow: #FCD85F;
 $blue-dark: #190B28;
 $white: white;
+$teal: #20BEB7;
+
 
 body {
     // font-family: 'Roboto', sans-serif;
@@ -48,7 +51,7 @@ li:before {
 
 .top::after {
     content: "";
-    background-image: url("img/sky.jpg");
+    background-image: url("img/land.jpg");
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
@@ -57,7 +60,7 @@ li:before {
     right: 0;
     position: absolute;
     z-index: -1;
-    opacity: 0.65;
+    opacity: 0.9;
 }
 
 .big {

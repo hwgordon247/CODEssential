@@ -31,7 +31,7 @@ li:before {
 
 .top::after {
   content: "";
-  background-image: url("img/sky.jpg");
+  background-image: url("img/land.jpg");
   background-position: center;
   background-repeat: no-repeat;
   top: 0;
@@ -40,7 +40,7 @@ li:before {
   right: 0;
   position: absolute;
   z-index: -1;
-  opacity: 0.65;
+  opacity: 0.9;
 }
 
 .big {
