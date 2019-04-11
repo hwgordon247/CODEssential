@@ -33,7 +33,25 @@ li:before {
   background-color: #3F4045;
   width: 100%;
   display: inline-block;
+  color: white;
   padding: 40px 0;
+}
+.bottom .block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bottom .block .title {
+  color: white;
+}
+.bottom .block .info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bottom .block .info a i {
+  color: white;
+  margin-right: 30px;
+  font-size: 30px;
 }
 
 .top::after {

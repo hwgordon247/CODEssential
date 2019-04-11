@@ -55,7 +55,29 @@ li:before {
     background-color: $grey;
     width: 100%;
     display: inline-block;
+    color: $white;
     padding: 40px 0;
+
+    .block {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .title {
+            color: $white;
+        }
+
+        .info {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            a i {
+                color: $white;
+                margin-right: 30px;
+                font-size: 30px;
+            }
+        }
+    }
 }
 
 .top::after {
