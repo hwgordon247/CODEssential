@@ -56,8 +56,7 @@ li:before {
 
 .top::after {
   content: "";
-  background-image: url("img/land.jpg");
-  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/mountain2.jpg");
   background-repeat: no-repeat;
   top: 0;
   left: 0;
@@ -65,7 +64,8 @@ li:before {
   right: 0;
   position: absolute;
   z-index: -1;
-  opacity: 0.9;
+  opacity: 0.95;
+  background-size: auto 100%;
 }
 
 .big {
@@ -181,6 +181,12 @@ li:before {
   margin-right: 20px;
 }
 
+@media only screen and (min-width: 600px) {
+  .top::after {
+    background-position: center;
+    background-size: 100%;
+  }
+}
 @media only screen and (min-width: 768px) {
   .block {
     display: flex;
