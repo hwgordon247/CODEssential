@@ -116,9 +116,15 @@ li:before {
 
 .logo {
     font-size: 60px;
-    color: $red;
+    color: $white;
     font-family: 'Open Sans Condensed', sans-serif !important;
-    span {
+
+    .box {
+        background-color: $red;
+        padding: 0 15px;
+    }
+
+    .heavy {
         font-weight: 700;
     }
 }
